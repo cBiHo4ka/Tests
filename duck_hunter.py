@@ -18,9 +18,9 @@ pygame.init()
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
-#piu = pygame.image.load('C:\Python\Pygame graphics\пиу.png').convert()
+#piu = pygame.image.load('пиу.png').convert()
 
-d1 = pygame.image.load('C:\Python\Pygame graphics\duck1.png').convert()
+d1 = pygame.image.load('duck1.png').convert()
 
 d2 = pygame.transform.flip(d1, True, False)
 
